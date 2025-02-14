@@ -16,6 +16,8 @@ const iconMap = {
 
 export default async function CardWrapper() {
   await new Promise((resolve) => setTimeout(resolve, 10000));
+  console.log("CardWrapper data fetch completed after 10 seconds.");
+
   const {
     totalPaidInvoices,
     totalPendingInvoices,
